@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui>
+	<activity name="MainActivity">
+		<title>ebay</title>
+		<sign-in>//android.widget.Button[@text='SIGN IN']</sign-in>
+	</activity>
+	<activity name="SignInActivity">
+		<title></title>
+		<username>//android.widget.EditText[@text='Email or username']</username>
+		<password>//android.widget.EditText[@text='Password']</password>
+		<sign-in>//android.widget.Button[@text='SIGN IN']</sign-in>
+		<maybelater>//android.widget.Button[@text='MAYBE LATER']</maybelater>
+	</activity>
+	<activity name="LoggedInActivity">
+		<title></title>
+		<searchbox>//android.widget.TextView[@text='Search for anything']</searchbox>
+		<itemincart>//android.widget.FrameLayout[@resource-id='com.ebay.mobile:id/menu_cart']/android.widget.TextView[@resource-id='com.ebay.mobile:id/action_view_count']</itemincart>
+	</activity>
+	<activity name="SearchResultActivity">
+		<title></title>
+		<firstproduct>(//android.support.v7.widget.RecyclerView)[1]/android.widget.RelativeLayout[@resource-id='com.ebay.mobile:id/cell_collection_item']//android.widget.TextView[@resource-id='com.ebay.mobile:id/textview_item_title']</firstproduct>
+	</activity>
+	<activity name="ProductActivity">
+		<title></title>
+		<addtocart>//android.widget.Button[@text='ADD TO CART']</addtocart>
+		<viewincart>//android.widget.Button[@text='VIEW IN CART']</viewincart>
+		<buyitnow>//android.widget.Button[@text='BUY IT NOW']</buyitnow>
+	</activity>
+	<activity name="EnterQuantityActivity">
+		<title></title>
+		<review>//android.widget.Button[@text='REVIEW']</review>
+		<numberpicker>//android.widget.NumberPicker</numberpicker>
+		<target>//android.widget.TextView[@resource-id='com.ebay.mobile:id/item_title']</target>
+	</activity>
+	<activity name="CartActivity">
+		<title></title>
+		<checkout>//android.widget.Button[@text='CHECKOUT']</checkout>
+		<close>//android.widget.ImageButton[@resource-id='com.ebay.mobile:id/toolbar_close_button']</close>
+		<removefromcart>//android.widget.Button[@resource-id='com.ebay.mobile:id/remove_from_cart_button']</removefromcart>
+		<removeconfirm>//android.widget.Button[@resource-id='android:id/button1']</removeconfirm>
+	</activity>
+	<activity name="CheckOutActivity">
+		<title></title>
+		<checkout>//android.widget.Button[@text='CHECKOUT']</checkout>
+	</activity>
+</ui>

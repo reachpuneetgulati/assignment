@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testdata>
+	<suite name="LogInAndPurchase">
+		<test name="logInAndPurchaseAProduct">
+			<data>
+				<username>assignment@gmail.com</username>
+				<password>ebay@123</password>
+				<product>mouse</product>
+				<creditcard>1234567887654321</creditcard>
+				<expiry>09/21</expiry>
+				<cvv>012</cvv>
+			</data>
+		</test>
+	</suite>
+</testdata>
